@@ -1,0 +1,77 @@
+.box1 {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../../assets/images/coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    position: relative;  
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 12%;
+    width: 35%;
+
+}
+
+.headertext {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0;
+    text-align: left;
+    width: 60%;
+    margin-bottom: 0px;
+    font-family: 'RobotoCondensed';
+    color: #dbc4af;
+    line-height: 90px;
+    z-index: 9;
+}
+
+.grow {
+    color: #dbc4af;
+    font-family: 'Scriptina';
+}
+
+
+.gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.2))
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: #e9d6be;
+    color: #6e6961;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    margin-left: 0px;
+    font-family: 'RobotoCondensed';
+    letter-spacing: 1px;
+    margin-top: 3rem;
+    z-index: 2;
+    transition: ease-in-out 0.s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background: rgba(255,255,255,0.3);
+}
