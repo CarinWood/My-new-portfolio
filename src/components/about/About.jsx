@@ -1,7 +1,14 @@
 import React from 'react'
 import styles from './about.module.css';
+import { useNavigate } from 'react-router-dom';
+import userEvent from '@testing-library/user-event';
 
 const About = () => {
+
+  const navigate = useNavigate();
+
+
+
   return (
     <div className={styles.box2}>
     <section className={styles.textbox}>
@@ -30,7 +37,7 @@ const About = () => {
     <section className={styles.imagebox}>
       <img className={styles.img} src="../../assets/images/profilephoto.jpg" alt="" />
       <div className={styles.whiteBorder}>
-          <button className={styles.connect}>CONNECT</button>
+          <button onClick={() => navigate("/connect")} className={styles.connect}>CONNECT</button>
       </div>
     </section>
   </div>

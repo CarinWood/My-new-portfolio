@@ -1,0 +1,79 @@
+.wrapper {
+    width: 100%;
+    height: 200vh;
+}
+
+.imageSection {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.textbox {
+    background-color: #ba8352;
+    color: white;
+    width: 50rem;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 10rem;
+    border-radius: 5px;
+}
+
+.headline {
+    font-family: "Scriptina";
+    font-size: 46px;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.subtext {
+    font-family: monospace;
+    font-size: 22px;
+    width: 26rem;
+    line-height: 2.3rem;
+}
+
+.divider {
+    margin-top: 1rem;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-attachment: fixed;
+    color: black;
+    font-family: sans-serif;   
+    margin-top: 0.8rem; 
+}
+
+.wrapper .icon span {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 2;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.image {
+    color: #b07745;
+    font-size: 20px;
+}
